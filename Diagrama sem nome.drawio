@@ -1,9 +1,80 @@
-<mxfile host="app.diagrams.net" modified="2023-04-23T21:08:16.909Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" version="21.2.1" etag="5Ut0yVui2apR1fAKvKLa" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-23T21:47:44.227Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="6JDTOmpVpYAjBfmik3bY" version="21.2.1" type="github">
   <diagram name="Página-1" id="Ac789uECIdd85RpVoQNj">
-    <mxGraphModel>
+    <mxGraphModel dx="1034" dy="478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="NaANtAGmhzmUp-vk0JIy-4" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="110" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NaANtAGmhzmUp-vk0JIy-5" value="Cliente" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="25" y="190" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NaANtAGmhzmUp-vk0JIy-7" value="" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NaANtAGmhzmUp-vk0JIy-9" value="" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="190" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NaANtAGmhzmUp-vk0JIy-11" value="" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="190" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NaANtAGmhzmUp-vk0JIy-14" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="NaANtAGmhzmUp-vk0JIy-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="140" as="sourcePoint" />
+            <mxPoint x="190" y="130" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NaANtAGmhzmUp-vk0JIy-15" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" target="NaANtAGmhzmUp-vk0JIy-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="140" as="sourcePoint" />
+            <mxPoint x="180" y="40" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="110" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NaANtAGmhzmUp-vk0JIy-16" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="NaANtAGmhzmUp-vk0JIy-9" target="NaANtAGmhzmUp-vk0JIy-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="225" y="125" as="sourcePoint" />
+            <mxPoint x="275" y="75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NaANtAGmhzmUp-vk0JIy-17" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="NaANtAGmhzmUp-vk0JIy-11" target="NaANtAGmhzmUp-vk0JIy-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="225" y="200" as="sourcePoint" />
+            <mxPoint x="275" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NaANtAGmhzmUp-vk0JIy-18" value="" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="190" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NaANtAGmhzmUp-vk0JIy-20" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="NaANtAGmhzmUp-vk0JIy-18" target="NaANtAGmhzmUp-vk0JIy-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="225" y="250" as="sourcePoint" />
+            <mxPoint x="275" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NaANtAGmhzmUp-vk0JIy-21" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="140" as="sourcePoint" />
+            <mxPoint x="190" y="160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="140" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NaANtAGmhzmUp-vk0JIy-22" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="140" as="sourcePoint" />
+            <mxPoint x="190" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="100" y="180" />
+              <mxPoint x="130" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
